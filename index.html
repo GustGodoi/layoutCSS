@@ -1,59 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/layout.css" type="text/css"/>
-    <title></title>
-</head>
-<body>
-    <div class="header">
-        <h1>SpecTurbo</h1>
-        <p>Maior Blog Automotivo da Internet</p>
-    </div>
-    <div class="nav">
-        <a href="">Posts</a>
-        <a href="">Dicas</a>
-        <a href="">PodCasts</a>
-        <a href="" class="alinha-direita">Contáte-nos</a>
-    </div>
-    <div class="row">
-        <div class="leftCol">
-            <div class="card">
-                <h2>koenigsegg Gamera</h2>
-                <h5>Gustavo A. Godoi, oublicado em 04 de março de 2020</h5>
-                <img height="350px" class="enquadramento" src="img/Gemera.jpg" alt="foto do carro Gemera, da montadora koenigsegg">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/layout.css" type="text/css"/>
+        <link rel="stylesheet" href="css/lightbox.min.css" type="text/css"/>
+        <title>SpecTurbo</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>SpecTurbo</h1>
+            <h2>Maior Blog Automotivo da Internet</h2>
+        </div>
+        <div class="nav">
+            <a href="">Posts</a>
+            <a href="">Dicas</a>
+            <a href="">Podcasts</a>
+            <a href="" class="alinha-direita">Contáte-nos</a>
+        </div>
+        <div class="row">
+            <div class="leftCol">
+                <div class="card">
+                    <h2>Koenigsegg Gamera</h2>
+                    <h5>Gustavo A. Godoi, publicado em 04 de março de 2020</h5>
+                    <img class="enquadramento" src="img/Gemera.jpg" alt="foto do carro Gemera, da montadora koenigsegg" title=" Koenigsegg Gemera">
+                    <p>Koenigsegg gemera é um supercarro para a família capaz de chegar a 400 km/h, mais rápido que um fórmula 1.</p>
+                    <p>São 1.700 hp, o equivalente a 1.723 cv. A marca diz que o torque equivale a 1,27 megawatt de energia. A grosso modo, isso sustentaria o consumo energético de dezenas de casas.</p>
+                </div>
+                <div class="card">
+                    <h2>Conheça o novo Peogeot 208</h2>
+                    <h5>Gustavo A. Godoi, publicado em 04 de março de 2020</h5>
+                    <img data-lightbox="galeria"class="enquadramento" src="img/Peogeot.jpg" alt="Foto do carro 208, da montadora Peogeot" title="Peogeot 208">
+                    <p>A Peugeot quer provocar uma reviravolta no segmento de hatches compactos apostando as suas fichas no novo 208, lançado na Europa no ano passado e já em fase de produção na Argentina para estrear no Brasil ainda no primeiro semestre, provavelmente em maio.</p>
+                    <p>A marca francesa acredita na estratégia usada há 20 anos com o 206 para voltar a se destacar no mercado brasileiro: surpreender a concorrência com um produto inovador em design e tecnologia.</p>
+                </div>
+                <div class="card">
+                    <h2>A lenda Mazda 787B</h2>
+                    <h5>Gustavo A. Godoi, publicado em 04 de março de 2020</h5>
+                    <a href="img/787B.jpg" data-lightbox="galeria787B">
+                        <img data-lightbox="galeria" class="enquadramento" src="img/787B.jpg" alt="Foto do carro de corrida 787B, da montadora Mazda" title="Mazda 787B">
+                    </a>
+                    <a href="img/787B-2.jpg" data-lightbox="galeria787B"></a>
+                    <a href="img/787B-3.jpg" data-lightbox="galeria787B"></a>
+                    <p>O Mazda 787B é um protótipo de corrida da Mazda que possui uma velocidade máxima de 358 km/h, partindo dos 0-100 km/h em 3 segundos. Possui 700 CV, 9000 rpm e pesa 830 kg. Foi o primeiro e único veículo de corrida a vencer as 24 Horas de Le Mans utilizando um motor rotativo Wankel, no ano de 1991.</p>
+                    <p>O Mazda 787, que apareceu em 1990, era, por si, uma evolução do 767 e do 767B, que tinham corrido em Le Mans desde 1988.</p>
+                </div>
             </div>
-            <div class="card">
-                <h2>Título do post</h2>
-                <h5>Autor, oublicado em 04 de março de 2020</h5>
-                <div class="fakeimg" style="height: 200px;"></div>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <div class="rightCol">
+                <div class="card">
+                    <h2>Quem sou eu:</h2>
+                    <img class="enquadramento" src="img/enzo-ferrari.jpg" alt="imagem do criador do site, Jorge Luiz" title="Enzo Ferrari">
+                    <p>Me chamo Jorge Luiz, sou um afixionado por carro desde criança. Por este motivo crei o SpecTurbo, o maior site automotivo da internet.</p>
+                </div>
+                <div class="card">
+                    <h3>Posts populares</h3>
+                    <div><img class="enquadramento" src="img/formula-1-2021.jpg" alt="imagem ilustrativa de um carro de Formula 1" title="Formula 1 2021"><h4>Formula 1 em 2021</h4></div>
+                    <div><img class="enquadramento" src="img/Maverik.jpg" alt="foto do carro Maverik" title="Ford Maverik"><h4>Revendo o Ford Maverik</h4></div>
+                    <div><img  class="enquadramento" src="img/alfa_romeo_giulia.jpg" alt="foto ilustrativa de um carro italilano" title="Alfa Romeo GTA M"><h4>A paixão pelos modelos Italianos</h4></div>
+                </div>
+                <div class="card">
+                    <h3>Redes socias</h3>
+                    <a href="https://www.facebook.com/"><img style="width: 45px;" src="img/icons8-facebook-64.png"  alt="icone do facebook" title="Facebook"></a>
+                    <a href="https://www.instagram.com/"><img style="width: 45px;" src="img/icons8-instagram-64.png" alt="icone do instagram" title="Instagram"></a>
+                    <a href="https://twitter.com/"><img style="width: 45px;" src="img/icons8-twitter-64.png" alt="icone do twitter" title="Twitter"></a>
+                    <a href="https://www.youtube.com/"><img style="width: 45px;" src="img/icons8-youtube-64.png" alt="icone do youtube" title="Youtube"></a>
+                </div>    
             </div>
         </div>
-        <div class="rightCol">
-            <div class="card">
-                <h2>Quem sou eu</h2>
-                <div class="fakeimg" style="height: 100px;"></div>
-                <p>Texto falando sobre o cidadão dono deste site...</p>
-            </div>
-            <div class="card">
-                <h3>Posts populares</h3>
-                <div class="fakeimg"><p>Títiulo</p></div>
-                <div class="fakeimg"><p>Títiulo</p></div>
-                <div class="fakeimg"><p>Títiulo</p></div>
-            </div>
-            <div class="card">
-                <h3>Redes socias</h3>
-                <p>Links das redes socias...</p>
-            </div>
+        <div class="footer">
+            <h6> Copyright © Gustavo A. Godoi. Todos os direitos reservados</h6>
         </div>
-    </div>
-    <div class="footer">
-        <h2>Rodapé</h2>
-    </div>
-</body>
+        <script src="js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
+        <script src="js/lightbox.min.js" type="text/javascript"></script>
+    </body>
 </html>
